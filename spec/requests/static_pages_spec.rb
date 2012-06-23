@@ -11,7 +11,7 @@ describe "StaticPages" do
   
   
   describe "Home page" do
-    before { visit home_path }
+    before { visit root_path }
     let(:heading)    { 'Twotepad' }
     let(:page_title) { '' }
     it_should_behave_like "all static pages"
